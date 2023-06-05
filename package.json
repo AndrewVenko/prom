@@ -1,0 +1,33 @@
+{
+  "name": "prom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GameSavingLoader.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewVenko/prom.git"
+  },
+  "author": "Andrew Venko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewVenko/prom/issues"
+  },
+  "homepage": "https://github.com/AndrewVenko/prom#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/preset-env": "^7.22.4",
+    "core-js": "^3.30.2",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0",
+    "jest-babel": "^1.0.1"
+  }
+}
